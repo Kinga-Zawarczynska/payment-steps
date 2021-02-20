@@ -1,0 +1,14 @@
+.productContainer {
+    background-color: white;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productImage {
+    width: 30%;
+}
