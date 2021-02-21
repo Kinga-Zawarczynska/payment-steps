@@ -1,22 +1,12 @@
 import React from 'react';
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 import Product from './Product';
 import StepButton from './StepButton';
 import { products } from '../constants';
 
 import styles from '../styles/OrderSummary.module.css';
 
-function OrderSummary() {
-    const dispatch = useDispatch();
-    const handleStepClick = (action) => {
-        action === 'next' ? 
-        dispatch({
-            type: "NEXT_STEP"
-        }) : 
-        dispatch({
-            type: "PREVIOUS_STEP"
-        }) 
-    }
+function OrderSummary({ handleStepClick }) {
     const orderSum = useSelector((state) => state.cart.products.map(item => item.price)).reduce((a, b) => a + b, 0)
     const pay = 'Przejdź do płatności';
     return (

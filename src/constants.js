@@ -25,14 +25,14 @@ export const cards = [
     {
         id: `card1${uid}`,
         cardNumber: '5678345612340987',
-        expiredDate: '01.07.2023',
+        expiredDate: '07/23',
         cardHolder: 'John Doe',
         ccv: '121'
     },
     {
         id: `card2${uid}`,
         cardNumber: '4561234098756783',
-        expiredDate: '28.11.2021',
+        expiredDate: '11/21',
         cardHolder: 'Marry Doe',
         ccv: '483'
     }
