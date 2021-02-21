@@ -1,4 +1,12 @@
 .cartImg {
     width: 10%;
     height: auto;
+    cursor: pointer;
+}
+
+.cartItems {
+    background-color: red;
+    border-radius: 20px;
+    width: 5%;
+    margin: 0 auto;
 }

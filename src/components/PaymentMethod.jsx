@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PaymentSteps({ step }) {
+function PaymentMethod() {
 
     return (
         <div>
@@ -9,4 +9,4 @@ function PaymentSteps({ step }) {
     )
 }
 
-export default PaymentSteps;
+export default PaymentMethod;

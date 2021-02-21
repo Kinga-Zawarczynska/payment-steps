@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-function StepButton() {
+function StepButton({ title, onClick }) {
     return (
-        <div>
-            
+        <div onClick={onClick}>
+            {title}
         </div>
     )
 }
