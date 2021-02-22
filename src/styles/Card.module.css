@@ -1,5 +1,6 @@
 .card {
     display: flex;
+    cursor: pointer;
 }
 
 .cardContainer {
@@ -11,4 +12,14 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+}
+
+.usedCardContainer {
+    background-color: darkmagenta;
+}
+
+.expireDate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

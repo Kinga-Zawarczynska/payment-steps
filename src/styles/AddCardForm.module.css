@@ -1,0 +1,14 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5%;
+    display: block;
+}

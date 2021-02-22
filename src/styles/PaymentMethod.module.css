@@ -1,0 +1,20 @@
+.paymentMethodConatiner {
+    display: flex;
+    flex-direction: column;
+}
+.form {
+    margin: 5%;
+}
+
+.formButton {
+    cursor: pointer;
+    width: 20%;
+    background-color: coral;
+    border-radius: 5px;
+    padding: 5%;
+    margin: 5%;
+}
+
+.useCard {
+    background-color: darkmagenta;
+}

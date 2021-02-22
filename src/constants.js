@@ -23,17 +23,19 @@ export const products = [
 
 export const cards = [
     {
-        id: `card1${uid}`,
+        id: `121${uid}`,
         cardNumber: '5678345612340987',
-        expiredDate: '07/23',
+        expireMonth: '07',
+        expireYear: '2023',
         cardHolder: 'John Doe',
-        ccv: '121'
+        cvc: '121'
     },
     {
-        id: `card2${uid}`,
+        id: `483${uid}`,
         cardNumber: '4561234098756783',
-        expiredDate: '11/21',
+        expireMonth: '11',
+        expireYear: '2021',
         cardHolder: 'Marry Doe',
-        ccv: '483'
+        cvc: '483'
     }
 ]
